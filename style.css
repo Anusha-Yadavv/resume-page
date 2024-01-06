@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 40px;
+}
+
+main {
+    display: flex;
+    background-color: white;
+    /* height: 100vh; */
+    /* width: 70%; */
+    /* border-radius: 5px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#profileSection {
+    width: 35%;
+    /* background-color:rgb(228, 26, 26); */
+    /* height: 98vh; */
+    margin: 10px;
+    /* padding: 10px; */
+
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+#work-experience-section {
+    height: 50vh;
+    width: 40vw;
+    background-color: greenyellow;
+    margin: 10px;
+    /* padding: 10px; */
+
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+
+}
+
+#education-section {
+    background-color: brown;
+    margin: 10px;
+    height: 45vh;
+    /* padding: 10px; */
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+
+
+}
+
+.my-details-container {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+
+
+}
+
+#profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 40%; */
+    /* background-color: blue; */
+}
+
+#contact-info-container {
+    margin-top: 10px;
+
+    padding: 10px;
+
+}
+
+.profile {
+    height: 300px;
+    width: 300px;
+}
+
+.icon {
+    font-size: 22px;
+    padding-right: 50px;
+    color: #01473ede;
+}
+
+.heading {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.skills-section {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.skills-icon {
+    font-size: 30px;
+    color: #01473ede;
+    padding-right: 50px;
+
+
+}
+
+.skills-heading {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.skills div {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.skill-icon {
+
+    height: 20px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
