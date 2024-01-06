@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 
 }
 
@@ -32,16 +33,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
-#work-experience-section {
-    height: 50vh;
-    width: 40vw;
-    background-color: greenyellow;
-    margin: 10px;
-    /* padding: 10px; */
 
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
-
-}
 
 #education-section {
     background-color: brown;
@@ -132,4 +124,62 @@ main {
 
 .language {
     margin-left: 20px;
+}
+
+#work-experience-section {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    margin-top: 10px;
+    padding: 10px;
+    width: 40vw;
+    padding-left: 25px;
+
+    /* padding: 10px; */
+
+    /* box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset; */
+
+}
+
+.work-exp-icon {
+    font-size: 38px;
+    color: #01473ede;
+    padding-right: 10px;
+}
+
+.work-heading {
+    font-size: 33px;
+    font-weight: 500;
+
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.exp-title {
+    font-size: 25px;
+    color: #757575 !important;
+    padding-bottom: 10px;
+    font-weight: 500;
+
+}
+
+.date-icon {
+    padding-right: 35px;
+    font-size: 20px;
+}
+
+.exp-details h6 {
+    color: #01473ede;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.job-status {
+    background-color: #01473ede;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.experiences li {
+    margin-bottom: 30px;
 }
