@@ -17,33 +17,21 @@ body {
 main {
     display: flex;
     background-color: white;
-    /* height: 100vh; */
-    /* width: 70%; */
-    /* border-radius: 5px; */
+
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #profileSection {
     width: 35%;
-    /* background-color:rgb(228, 26, 26); */
-    /* height: 98vh; */
+
     margin: 10px;
-    /* padding: 10px; */
 
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 
 
-#education-section {
-    background-color: brown;
-    margin: 10px;
-    height: 45vh;
-    /* padding: 10px; */
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 
-
-}
 
 .my-details-container {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
@@ -55,8 +43,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 40%; */
-    /* background-color: blue; */
+
 }
 
 #contact-info-container {
@@ -67,14 +54,20 @@ main {
 }
 
 .profile {
-    height: 300px;
-    width: 300px;
+    width: 354px;
 }
 
 .icon {
     font-size: 22px;
     padding-right: 50px;
     color: #01473ede;
+}
+
+.linkedin-img {
+    height: 33px;
+    padding-right: 16px;
+    color: #01473ede;
+    fill: #01473ede;
 }
 
 .heading {
@@ -112,6 +105,9 @@ main {
     height: 20px;
     padding-left: 15px;
     padding-right: 20px;
+
+
+
 }
 
 #languages-section {
@@ -126,6 +122,21 @@ main {
     margin-left: 20px;
 }
 
+#myName {
+    display: flex;
+    align-items: center;
+    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    margin-top: 10px;
+    padding: 10px;
+    width: 40vw;
+    padding-left: 25px;
+    background-color: #01473ede;
+    color: white;
+
+
+}
+
 #work-experience-section {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
     margin-top: 10px;
@@ -133,11 +144,9 @@ main {
     width: 40vw;
     padding-left: 25px;
 
-    /* padding: 10px; */
-
-    /* box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset; */
 
 }
+
 
 .work-exp-icon {
     font-size: 38px;
@@ -148,6 +157,7 @@ main {
 .work-heading {
     font-size: 33px;
     font-weight: 500;
+    color: #01473ede;
 
     padding-left: 20px;
     padding-bottom: 10px;
@@ -182,4 +192,25 @@ main {
 
 .experiences li {
     margin-bottom: 30px;
+}
+
+#education-section {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    margin-top: 10px;
+    padding: 10px;
+    width: 40vw;
+    padding-left: 25px;
+
+}
+
+.edu-icon {
+    color: #01473ede;
+    padding-right: 60px;
+}
+
+#education-section h2 {
+    color: #01473ede;
+    font-weight: 500;
+    margin-top: 20px;
+
 }
