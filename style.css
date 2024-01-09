@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-    margin: 40px;
+    /* margin: 40px; */
 }
 
 main {
@@ -55,6 +55,13 @@ main {
 
 .profile {
     width: 354px;
+    border-radius: 15px;
+    /* border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius:30% ;
+    border-top-right-radius: 30%;
+    */
+
 }
 
 .icon {
@@ -125,7 +132,22 @@ main {
 #myName {
     display: flex;
     align-items: center;
-    
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    margin-top: 10px;
+    padding: 10px;
+    width: 40vw;
+    padding-left: 25px;
+    background-color: #01473ede;
+    color: white;
+
+
+}
+
+#my-name {
+    display: flex;
+    align-items: center;
+
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
     margin-top: 10px;
     padding: 10px;
@@ -212,5 +234,70 @@ main {
     color: #01473ede;
     font-weight: 500;
     margin-top: 20px;
+
+}
+
+@media screen and (max-width:768px) {
+    main {
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+
+    }
+
+    #profileSection {
+        width: 100%;
+
+
+    }
+
+    #myName {
+        display: none;
+    }
+
+    #work-experience-section {
+
+        width: 100%;
+        padding: 30px;
+
+
+
+    }
+
+    #education-section {
+
+        width: 100%;
+        padding: 30px;
+    }
+
+    #my-name {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .work-heading {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    #education-section h2 {
+        font-weight: 600;
+
+    }
+
+    .profile {
+        border-radius: 0px;
+    }
+
+
+
+}
+
+@media screen and (min-width:768px) {
+    #my-name {
+        display: none;
+    }
+
 
 }
